@@ -123,7 +123,7 @@ fn main() {
         // Define paths
         let config_path = launcher_dir.join("config.ini");
         // Note: Using the requested DLL name
-        let dll_path = launcher_dir.join("hutao_minhook_hg.dll");
+        let dll_path = launcher_dir.join("hutao_minhook_ng.dll");
 
         // Check if DLL exists
         if !dll_path.exists() {
