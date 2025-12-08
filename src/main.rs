@@ -1,3 +1,5 @@
+#![windows_subsystem = "windows"]
+
 use std::env;
 use std::ffi::c_void;
 use std::path::{Path, PathBuf};
